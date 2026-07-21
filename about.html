@@ -11,7 +11,12 @@
 <link rel="stylesheet" href="malaya.css">
 <style>
   /* About-page-only touches. Move to malaya.css if reused elsewhere. */
-  .story-photo{background:var(--sand-warm);border:1px dashed rgba(26,107,60,.35);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;color:var(--palm);font-weight:600;font-size:.82rem;text-align:center;padding:20px;min-height:220px}
+  .about-hero-grid{display:grid;gap:30px}
+  .about-hero-photo{margin:0;position:relative}
+  .about-hero-photo::before{content:"";position:absolute;inset:16px -14px -14px 14px;border-radius:var(--radius);background:linear-gradient(140deg,var(--green),var(--teal));opacity:.85}
+  .about-hero-photo img{position:relative;width:100%;display:block;border-radius:var(--radius);box-shadow:var(--shadow)}
+  .story-img{width:100%;display:block;border-radius:var(--radius);box-shadow:var(--shadow)}
+  .founder-card .founder-img{width:100%;height:340px;object-fit:cover;object-position:50% 18%;display:block}
   .name-arc{display:grid;gap:16px;margin-top:36px}
   .name-card{background:var(--white);border-radius:var(--radius);padding:30px 26px;box-shadow:var(--shadow);border:1px solid rgba(26,107,60,.08);position:relative;overflow:hidden}
   .name-card .word{font-family:'Fraunces',serif;font-weight:900;font-size:2.3rem;color:var(--green-deep);line-height:1}
@@ -32,6 +37,7 @@
   .pull{font-family:'Fraunces',serif;font-weight:700;font-size:1.5rem;line-height:1.35;color:var(--green-deep);max-width:24ch;margin:30px 0}
   .pull .hl{background:linear-gradient(transparent 62%, rgba(245,166,35,.42) 62%)}
   @media(min-width:760px){
+    .about-hero-grid{grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
     .name-arc{grid-template-columns:1fr auto 1fr;align-items:center}
     .arrow-down{transform:rotate(-90deg);font-size:2rem}
     .founder{grid-template-columns:1fr 1fr}
@@ -65,10 +71,15 @@
 
 <!-- HERO -->
 <section class="page-hero">
-  <div class="wrap">
-    <span class="eyebrow">Our story</span>
-    <h1>We're named after freedom. And after joy.</h1>
-    <p class="hero-sub">Malaya Publishing exists for one reason: to help Filipino business owners win back the freedom they started their business for, so they can actually live the life that freedom is supposed to buy. That's not a slogan for us. It's the names of our two daughters.</p>
+  <div class="wrap about-hero-grid">
+    <div>
+      <span class="eyebrow">Our story</span>
+      <h1>We're named after freedom. And after joy.</h1>
+      <p class="hero-sub">Malaya Publishing exists for one reason: to help Filipino business owners win back the freedom they started their business for, so they can actually live the life that freedom is supposed to buy. That's not a slogan for us. It's the names of our two daughters.</p>
+    </div>
+    <figure class="about-hero-photo">
+      <img src="assets/about-hero.webp" alt="Kathy and Daryl, the husband-and-wife founders of Malaya">
+    </figure>
   </div>
 </section>
 
@@ -83,7 +94,7 @@
         <p class="lead" style="margin-top:16px">Every hour I gave that agency was an hour I was trading away, and the asset I was building with those hours would never be mine. It would be theirs. I was pouring my best years into someone else's business, and I would never get that time back with my daughter.</p>
         <p class="lead" style="margin-top:16px">So I made a decision. I would build my own. I would have my own clients, on my own terms, with my own time. That was the beginning of Malaya Publishing.</p>
       </div>
-      <div class="story-photo">[ Photo: Kathy — founder portrait ]</div>
+      <img class="story-img" src="assets/founder-kathy.webp" alt="Kathy, founder of Malaya Publishing">
     </div>
     <div class="pull"><span class="hl">The freedom I wanted for myself is the freedom we now build for other owners.</span></div>
   </div>
@@ -120,7 +131,7 @@
     <p class="lead">Malaya is built by a husband and wife. One of us brings the heart and the roots. The other brings a decade of systems that built businesses worth millions. Together, that's the whole offer.</p>
     <div class="founder">
       <div class="founder-card">
-        <div class="ph">[ Photo: Kathy ]</div>
+        <img class="founder-img" src="assets/headshot-kathy.webp" alt="Kathy holding her daughter Ligaya">
         <div class="txt">
           <div class="role">Co-founder · The heart</div>
           <h3>Kathy</h3>
@@ -129,12 +140,12 @@
         </div>
       </div>
       <div class="founder-card">
-        <div class="ph">[ Photo: Daryl ]</div>
+        <img class="founder-img" src="assets/headshot-daryl.webp" alt="Daryl holding his daughter Malaya">
         <div class="txt">
           <div class="role">Co-founder · The systems</div>
           <h3>Daryl Urbanski</h3>
           <p>Daryl spent his first decade building bestbusinesscoach.ca and a long-running business podcast, building marketing and automation systems for clients across the West, including Michael Gerber, the author of The E-Myth, and NeuroGym.</p>
-          <p>When he moved to the Philippines, he committed fully to Malaya and to one mission: helping build multi-billiob-peso Filipino businesses. A bestselling author who has built real businesses from the ground up, now doing it here, at home.</p>
+          <p>When he moved to the Philippines, he committed fully to Malaya and to one mission: helping build multi-billion-peso Filipino businesses. A bestselling author who has built real businesses from the ground up, now doing it here, at home.</p>
         </div>
       </div>
     </div>
