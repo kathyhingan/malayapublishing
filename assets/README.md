@@ -1,7 +1,8 @@
 # Image assets
 
-- `hero-family.png` — homepage hero photo: the family cutout with a transparent
-  background (PNG). The homepage expects this exact filename. Until it exists,
-  the hero automatically falls back to the original text-only layout.
-- Keep the original (un-cut) photo here too, e.g. `hero-family-original.jpg`,
-  so the cutout can be regenerated at other sizes if needed.
+- `hero-family.webp` — homepage hero photo: the family cutout with a transparent
+  background (WebP with alpha, 900px wide). The homepage expects this exact
+  filename. If the file is missing, the hero automatically falls back to the
+  original text-only layout.
+- The original un-cut photo is `IMG_0414.jpeg` in the repo root, so the cutout
+  can be regenerated at other sizes if needed.
