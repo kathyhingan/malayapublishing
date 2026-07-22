@@ -296,12 +296,42 @@
   }, 600);
   setTimeout(function(){ clearInterval(capturePoll); }, 15000);
 
+  // Insert our branded heading above the embed popup's form, and hide the
+  // embed's own plain title, so the popup reads: heading, paragraph, form.
+  function decorateEmbedPopup(){
+    var kids = document.body.children;
+    for(var i=0;i<kids.length;i++){
+      var el = kids[i];
+      if(el === modal || el.tagName === 'HEADER' || el.tagName === 'SCRIPT') continue;
+      var cs; try{ cs = getComputedStyle(el); }catch(e){ continue; }
+      if(cs.position !== 'fixed' || cs.display === 'none') continue;
+      var field = el.querySelector('form, input, textarea');
+      if(!field) continue;
+      if(el.querySelector('.malaya-embed-heading')) return true;
+      var target = el.querySelector('form') || field.closest('div') || field;
+      var head = document.createElement('div');
+      head.className = 'malaya-embed-heading';
+      head.innerHTML = '<h2>See your business the way your next customer sees it</h2>' +
+        '<p>We\'ll show you what builds trust, what creates doubt, and what may be costing you enquiries before a prospect ever calls.</p>';
+      target.parentNode.insertBefore(head, target);
+      var hs = el.querySelectorAll('h1,h2,h3,h4');
+      for(var j=0;j<hs.length;j++){
+        if(!head.contains(hs[j]) && /free\s+growth\s+audit/i.test(hs[j].textContent||'')) hs[j].style.display = 'none';
+      }
+      return true;
+    }
+    return false;
+  }
+
   function openModal(mode, source){
     if(mode !== 'waitlist'){
       var lb = captureEmbedLauncher();
       if(lb){
         window.malayaLeadSource = source || mode;
         lb.click();
+        var tries = 0, deco = setInterval(function(){
+          if(decorateEmbedPopup() || ++tries > 25) clearInterval(deco);
+        }, 160);
         return;
       }
     }
