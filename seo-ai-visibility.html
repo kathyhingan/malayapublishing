@@ -162,8 +162,8 @@ document.querySelector('.burger').addEventListener('click',function(){
       var target = el.querySelector('form') || field.closest('div') || field;
       var head = document.createElement('div');
       head.className = 'malaya-embed-heading';
-      head.innerHTML = '<h2>See your business the way your next customer sees it</h2>' +
-        '<p>We\'ll show you what builds trust, what creates doubt, and what may be costing you enquiries before a prospect ever calls.</p>';
+      head.innerHTML = '<h2 style="color:#fff !important;font-family:\'Fraunces\',Georgia,serif !important;font-weight:900 !important;letter-spacing:-.02em !important;line-height:1.12 !important;margin:0 0 10px !important">See your business the way your next customer sees it</h2>' +
+        '<p style="color:rgba(247,243,232,.88) !important;font-size:.95rem !important;line-height:1.5 !important;max-width:44ch !important;margin:0 auto !important">We\'ll show you what builds trust, what creates doubt, and what may be costing you enquiries before a prospect ever calls.</p>';
       target.parentNode.insertBefore(head, target);
       var hs = el.querySelectorAll('h1,h2,h3,h4');
       for(var j=0;j<hs.length;j++){
