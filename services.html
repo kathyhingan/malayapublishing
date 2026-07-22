@@ -147,7 +147,47 @@ document.querySelector('.burger').addEventListener('click',function(){
     }
   };
 
+  // ---- Embed bridge: the audit intake embed injects its own floating
+  // launcher + popup. We hide the launcher and open its popup from our own
+  // CTAs so visitors see one consistent experience. If the embed hasn't
+  // loaded (or its markup changes), we fall back to this modal untouched.
+  var embedLauncher = null;
+  function captureEmbedLauncher(){
+    if(embedLauncher && document.body.contains(embedLauncher)) return embedLauncher;
+    embedLauncher = null;
+    var kids = document.body.children;
+    for(var i=0;i<kids.length;i++){
+      var el = kids[i];
+      if(el === modal || el.tagName === 'HEADER' || el.tagName === 'SCRIPT') continue;
+      var cs; try{ cs = getComputedStyle(el); }catch(e){ continue; }
+      if(cs.position !== 'fixed') continue;
+      if((el.textContent||'').toLowerCase().indexOf('audit') === -1) continue;
+      var btn = null, cands = el.querySelectorAll('button, a, [role="button"]');
+      for(var j=0;j<cands.length;j++){
+        if((cands[j].textContent||'').toLowerCase().indexOf('audit') > -1){ btn = cands[j]; break; }
+      }
+      btn = btn || (el.matches('button, a, [role="button"]') ? el : null);
+      if(!btn) continue;
+      btn.style.setProperty('display','none','important');
+      embedLauncher = btn;
+      break;
+    }
+    return embedLauncher;
+  }
+  var capturePoll = setInterval(function(){
+    if(captureEmbedLauncher()) clearInterval(capturePoll);
+  }, 600);
+  setTimeout(function(){ clearInterval(capturePoll); }, 15000);
+
   function openModal(mode, source){
+    if(mode !== 'waitlist'){
+      var lb = captureEmbedLauncher();
+      if(lb){
+        window.malayaLeadSource = source || mode;
+        lb.click();
+        return;
+      }
+    }
     var c = COPY[mode] || COPY.audit;
     titleEl.textContent = c.title;
     subEl.textContent = c.sub;
