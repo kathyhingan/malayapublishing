@@ -211,9 +211,7 @@
       <div class="side-card">
         <h3>The guided, step-by-step version</h3>
         <p>Ranking in the local pack is one of the lessons in the local SEO course we're building specifically for Filipino business owners. Join the waitlist and we'll tell you the moment it's ready.</p>
-        <div class="side-form" data-source="waitlist">
-          <script src="https://ytdwlsrnlvakaxjeznnr.supabase.co/functions/v1/intake-form-embed?id=739dd0c5-7e54-49c4-b8c9-2530b40416ba"></script>
-        </div>
+        <a data-modal-open="waitlist" data-source="waitlist" href="#waitlist" class="btn big">Join the waitlist</a>
       </div>
       <div class="side-related">
         <h3>Keep reading</h3>
@@ -292,7 +290,7 @@
         <script src="https://ytdwlsrnlvakaxjeznnr.supabase.co/functions/v1/intake-form-embed?id=c8056fd3-f5c2-46a1-a8ba-098314b6a3fe"></script>
       </div>
       <div id="malaya-waitlist-slot" data-source="waitlist" style="display:none">
-        <div class="embed-placeholder"><b>Waitlist form loads here</b><span>Paste the waitlist CRM embed into #malaya-waitlist-slot.</span></div>
+        <script src="https://ytdwlsrnlvakaxjeznnr.supabase.co/functions/v1/intake-form-embed?id=739dd0c5-7e54-49c4-b8c9-2530b40416ba"></script>
       </div>
     </div>
   </div>
@@ -316,49 +314,35 @@
       sub: "This course is opening soon. Join the waitlist and we'll let you know the moment it's ready, plus early-bird access."
     }
   };
-  var embedLauncher = null;
-  function captureEmbedLauncher(){
-    if(embedLauncher && document.body.contains(embedLauncher)) return embedLauncher;
-    embedLauncher = null;
+  // Both the audit and waitlist intake embeds inject their own floating
+  // launcher button. We hide both and open the matching popup from our own
+  // in-page CTAs, so no stray launcher shows anywhere on the site.
+  var auditLauncher = null, waitLauncher = null;
+  function captureLauncher(keyword){
     var kids = document.body.children;
     for(var i=0;i<kids.length;i++){
       var el = kids[i];
       if(el === modal || el.tagName === 'HEADER' || el.tagName === 'SCRIPT') continue;
       var cs; try{ cs = getComputedStyle(el); }catch(e){ continue; }
       if(cs.position !== 'fixed') continue;
-      if((el.textContent||'').toLowerCase().indexOf('audit') === -1) continue;
+      if((el.textContent||'').toLowerCase().indexOf(keyword) === -1) continue;
       var btn = null, cands = el.querySelectorAll('button, a, [role="button"]');
       for(var j=0;j<cands.length;j++){
-        if((cands[j].textContent||'').toLowerCase().indexOf('audit') > -1){ btn = cands[j]; break; }
+        if((cands[j].textContent||'').toLowerCase().indexOf(keyword) > -1){ btn = cands[j]; break; }
       }
       btn = btn || (el.matches('button, a, [role="button"]') ? el : null);
       if(!btn) continue;
       btn.style.setProperty('display','none','important');
-      embedLauncher = btn;
-      break;
+      return btn;
     }
-    return embedLauncher;
+    return null;
   }
   var capturePoll = setInterval(function(){
-    if(captureEmbedLauncher()) clearInterval(capturePoll);
+    if(!auditLauncher) auditLauncher = captureLauncher('audit');
+    if(!waitLauncher)  waitLauncher  = captureLauncher('waitlist');
+    if(auditLauncher && waitLauncher) clearInterval(capturePoll);
   }, 600);
   setTimeout(function(){ clearInterval(capturePoll); }, 15000);
-  // Hide any floating "waitlist" launcher the embed injects; the waitlist
-  // form is rendered inline inside the blog CTA card instead.
-  var waitPoll = setInterval(function(){
-    var kids = document.body.children;
-    for(var i=0;i<kids.length;i++){
-      var el = kids[i];
-      if(el === modal || el.tagName === 'HEADER' || el.tagName === 'SCRIPT') continue;
-      var cs; try{ cs = getComputedStyle(el); }catch(e){ continue; }
-      if(cs.position !== 'fixed') continue;
-      var t = (el.textContent||'').toLowerCase();
-      if(t.indexOf('waitlist') > -1 || t.indexOf('wait list') > -1){
-        el.style.setProperty('display','none','important');
-      }
-    }
-  }, 600);
-  setTimeout(function(){ clearInterval(waitPoll); }, 15000);
   function decorateEmbedPopup(){
     var kids = document.body.children;
     for(var i=0;i<kids.length;i++){
@@ -384,16 +368,18 @@
     return false;
   }
   function openModal(mode, source){
-    if(mode !== 'waitlist'){
-      var lb = captureEmbedLauncher();
-      if(lb){
-        window.malayaLeadSource = source || mode;
-        lb.click();
+    var lb = (mode === 'waitlist')
+      ? (waitLauncher || (waitLauncher = captureLauncher('waitlist')))
+      : (auditLauncher || (auditLauncher = captureLauncher('audit')));
+    if(lb){
+      window.malayaLeadSource = source || mode;
+      lb.click();
+      if(mode !== 'waitlist'){
         var tries = 0, deco = setInterval(function(){
           if(decorateEmbedPopup() || ++tries > 25) clearInterval(deco);
         }, 160);
-        return;
       }
+      return;
     }
     var c = COPY[mode] || COPY.audit;
     titleEl.textContent = c.title;
