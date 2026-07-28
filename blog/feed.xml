@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Malaya Publishing Blog</title>
     <link>https://malayapublishing.com/blog/</link>
     <atom:link href="https://malayapublishing.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Practical, honest guides on local SEO, Google Business Profile, reviews, and AI visibility for Filipino business owners.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 10:56:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 11:14:17 +0000</lastBuildDate>
     <ttl>1440</ttl>
+    <image>
+      <url>https://malayapublishing.com/assets/hero-family.webp</url>
+      <title>Malaya Publishing Blog</title>
+      <link>https://malayapublishing.com/blog/</link>
+    </image>
     <item>
       <title>The One-Weekend Local SEO Checklist for a Philippine Business</title>
       <link>https://malayapublishing.com/blog/local-seo-checklist-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/local-seo-checklist-philippines/</guid>
       <pubDate>Thu, 23 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy</dc:creator>
+      <author>hello@malayapublishing.com (Kathy)</author>
       <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/checklist.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/checklist.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/checklist.svg" />
       <description>A weekend-by-weekend local SEO checklist for Philippine small businesses: verify and complete your Google Business Profile, build a review system, fix citations, and plan ahead.</description>
     </item>
     <item>
@@ -21,7 +31,12 @@
       <link>https://malayapublishing.com/blog/how-to-respond-to-bad-google-review-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-respond-to-bad-google-review-philippines/</guid>
       <pubDate>Tue, 21 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy</dc:creator>
+      <author>hello@malayapublishing.com (Kathy)</author>
       <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/bad-review.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/bad-review.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/bad-review.svg" />
       <description>How to respond to a bad Google review in the Philippines: a calm, non-defensive framework, when a review is actually removable, how to flag fake reviews, and what never to do.</description>
     </item>
     <item>
@@ -29,7 +44,12 @@
       <link>https://malayapublishing.com/blog/how-to-rank-google-local-pack-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-rank-google-local-pack-philippines/</guid>
       <pubDate>Sat, 18 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy</dc:creator>
+      <author>hello@malayapublishing.com (Kathy)</author>
       <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/local-pack.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/local-pack.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/local-pack.svg" />
       <description>Understand the three local pack ranking factors—relevance, distance, and prominence—and the practical steps a Calamba or Laguna business can take to rank higher on Google Maps.</description>
     </item>
     <item>
@@ -37,7 +57,12 @@
       <link>https://malayapublishing.com/blog/how-to-get-more-google-reviews-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-get-more-google-reviews-philippines/</guid>
       <pubDate>Thu, 16 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy</dc:creator>
+      <author>hello@malayapublishing.com (Kathy)</author>
       <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/reviews.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/reviews.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/reviews.svg" />
       <description>A repeatable system for getting more Google reviews from Filipino customers using a direct review link, QR codes, and well-timed asks through Viber, Messenger, and GCash receipts.</description>
     </item>
     <item>
@@ -45,7 +70,12 @@
       <link>https://malayapublishing.com/blog/how-to-set-up-google-business-profile-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-set-up-google-business-profile-philippines/</guid>
       <pubDate>Tue, 14 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy</dc:creator>
+      <author>hello@malayapublishing.com (Kathy)</author>
       <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/gbp-setup.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/gbp-setup.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/gbp-setup.svg" />
       <description>A step-by-step guide to creating, verifying (including GBP video verification), and completing your Google Business Profile in the Philippines so nearby customers can find you on Google.</description>
     </item>
   </channel>
