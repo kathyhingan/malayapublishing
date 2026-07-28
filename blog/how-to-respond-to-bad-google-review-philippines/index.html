@@ -333,6 +333,10 @@
       var cs; try{ cs = getComputedStyle(el); }catch(e){ continue; }
       if(cs.position !== 'fixed') continue;
       if((el.textContent||'').toLowerCase().indexOf(keyword) === -1) continue;
+      // Only the bare launcher button, never the opened popup: skip any
+      // fixed element that contains the actual form, so we never hide the
+      // form's own submit/close controls.
+      if(el.querySelector('form, input, textarea, select')) continue;
       var btn = null, cands = el.querySelectorAll('button, a, [role="button"]');
       for(var j=0;j<cands.length;j++){
         if((cands[j].textContent||'').toLowerCase().indexOf(keyword) > -1){ btn = cands[j]; break; }
