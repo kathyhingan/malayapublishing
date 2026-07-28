@@ -386,3 +386,12 @@
   .side-card h3{font-size:1.25rem}
   .side-related{padding:22px 24px}
 }
+
+/* Inline waitlist form inside the blog CTA card */
+.side-form{margin-top:8px}
+.side-form iframe{width:100%!important;max-width:100%!important;border:0;border-radius:12px;background:#fff;display:block}
+.side-form form{display:block}
+.side-form input,.side-form textarea,.side-form select{width:100%;box-sizing:border-box;font-family:'Plus Jakarta Sans',system-ui,sans-serif}
+.side-form button,.side-form input[type="submit"],.side-form .btn{width:100%;box-sizing:border-box}
+.side-form .embed-placeholder{border:1px dashed rgba(247,243,232,.4);border-radius:12px;padding:20px 16px;text-align:center;color:var(--sand)}
+.side-form .embed-placeholder b{display:block;color:#fff;margin-bottom:4px}

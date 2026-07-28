@@ -168,7 +168,7 @@ document.querySelector('.burger').addEventListener('click',function(){
       </div>
       <!-- WAITLIST form embed slot (shown for course waitlist buttons) -->
       <div id="malaya-waitlist-slot" data-source="waitlist" style="display:none">
-                <script src="https://ytdwlsrnlvakaxjeznnr.supabase.co/functions/v1/intake-form-embed?id=739dd0c5-7e54-49c4-b8c9-2530b40416ba"></script>
+                <div class="embed-placeholder"><b>Waitlist form loads here</b><span>Paste the waitlist CRM embed into #malaya-waitlist-slot.</span></div>
       </div>
     </div>
   </div>
@@ -225,6 +225,22 @@ document.querySelector('.burger').addEventListener('click',function(){
     if(captureEmbedLauncher()) clearInterval(capturePoll);
   }, 600);
   setTimeout(function(){ clearInterval(capturePoll); }, 15000);
+  // Hide any floating "waitlist" launcher the embed injects; the waitlist
+  // form is rendered inline inside the blog CTA card instead.
+  var waitPoll = setInterval(function(){
+    var kids = document.body.children;
+    for(var i=0;i<kids.length;i++){
+      var el = kids[i];
+      if(el === modal || el.tagName === 'HEADER' || el.tagName === 'SCRIPT') continue;
+      var cs; try{ cs = getComputedStyle(el); }catch(e){ continue; }
+      if(cs.position !== 'fixed') continue;
+      var t = (el.textContent||'').toLowerCase();
+      if(t.indexOf('waitlist') > -1 || t.indexOf('wait list') > -1){
+        el.style.setProperty('display','none','important');
+      }
+    }
+  }, 600);
+  setTimeout(function(){ clearInterval(waitPoll); }, 15000);
 
   // Insert our branded heading above the embed popup's form, and hide the
   // embed's own plain title, so the popup reads: heading, paragraph, form.

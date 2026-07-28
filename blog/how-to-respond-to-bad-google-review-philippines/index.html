@@ -216,9 +216,11 @@
   </main>
   <aside class="side-col">
       <div class="side-card">
-        <h3>Review problem, or operations problem?</h3>
-        <p>If negative reviews are becoming more than an occasional exception, that's usually a sign of something worth looking at more closely. Our growth audit can help you see the full picture.</p>
-        <a data-modal-open="audit" data-source="audit" href="#audit" class="btn green big">Book a growth audit</a>
+        <h3>The guided, step-by-step version</h3>
+        <p>Managing reviews and reputation is part of the local SEO course we're building specifically for Filipino business owners. Join the waitlist and we'll tell you the moment it's ready.</p>
+        <div class="side-form" data-source="waitlist">
+          <script src="https://ytdwlsrnlvakaxjeznnr.supabase.co/functions/v1/intake-form-embed?id=739dd0c5-7e54-49c4-b8c9-2530b40416ba"></script>
+        </div>
       </div>
       <div class="side-related">
         <h3>Keep reading</h3>
@@ -297,7 +299,7 @@
         <script src="https://ytdwlsrnlvakaxjeznnr.supabase.co/functions/v1/intake-form-embed?id=c8056fd3-f5c2-46a1-a8ba-098314b6a3fe"></script>
       </div>
       <div id="malaya-waitlist-slot" data-source="waitlist" style="display:none">
-        <script src="https://ytdwlsrnlvakaxjeznnr.supabase.co/functions/v1/intake-form-embed?id=739dd0c5-7e54-49c4-b8c9-2530b40416ba"></script>
+        <div class="embed-placeholder"><b>Waitlist form loads here</b><span>Paste the waitlist CRM embed into #malaya-waitlist-slot.</span></div>
       </div>
     </div>
   </div>
@@ -348,6 +350,22 @@
     if(captureEmbedLauncher()) clearInterval(capturePoll);
   }, 600);
   setTimeout(function(){ clearInterval(capturePoll); }, 15000);
+  // Hide any floating "waitlist" launcher the embed injects; the waitlist
+  // form is rendered inline inside the blog CTA card instead.
+  var waitPoll = setInterval(function(){
+    var kids = document.body.children;
+    for(var i=0;i<kids.length;i++){
+      var el = kids[i];
+      if(el === modal || el.tagName === 'HEADER' || el.tagName === 'SCRIPT') continue;
+      var cs; try{ cs = getComputedStyle(el); }catch(e){ continue; }
+      if(cs.position !== 'fixed') continue;
+      var t = (el.textContent||'').toLowerCase();
+      if(t.indexOf('waitlist') > -1 || t.indexOf('wait list') > -1){
+        el.style.setProperty('display','none','important');
+      }
+    }
+  }, 600);
+  setTimeout(function(){ clearInterval(waitPoll); }, 15000);
   function decorateEmbedPopup(){
     var kids = document.body.children;
     for(var i=0;i<kids.length;i++){
