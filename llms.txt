@@ -26,6 +26,17 @@ Malaya Publishing serves Filipino local businesses, online sellers, and professi
 - [Social media](https://malayapublishing.com/social-media/): Social systems that generate inquiries, not just likes.
 - [Podcast & authority](https://malayapublishing.com/podcast/): Podcast production and authority-building for experts.
 
+## Blog
+
+Practical, honest local SEO and AI-visibility guides for Filipino business owners. RSS feed: https://malayapublishing.com/blog/feed.xml
+
+- [Blog home](https://malayapublishing.com/blog/): All guides on local SEO, Google Business Profile, reviews, and AI visibility.
+- [How to set up your Google Business Profile in the Philippines](https://malayapublishing.com/blog/how-to-set-up-google-business-profile-philippines/): Step-by-step creation, GBP video verification, and completing your profile.
+- [How to get more Google reviews from Filipino customers](https://malayapublishing.com/blog/how-to-get-more-google-reviews-philippines/): A repeatable review-request system using a direct link, QR codes, Viber, Messenger, and GCash receipts.
+- [How to rank in the Google local pack for a Calamba or Laguna business](https://malayapublishing.com/blog/how-to-rank-google-local-pack-philippines/): The three ranking factors (relevance, distance, prominence) and how to influence them.
+- [How to handle a bad Google review without losing customers](https://malayapublishing.com/blog/how-to-respond-to-bad-google-review-philippines/): A calm response framework, when a review is removable, and flagging fake reviews.
+- [The one-weekend local SEO checklist for a Philippine business](https://malayapublishing.com/blog/local-seo-checklist-philippines/): A Saturday-to-Sunday order of operations covering the local SEO fundamentals.
+
 ## About
 
 - [About Malaya Publishing](https://malayapublishing.com/about/): The founding story, the Malaya-to-Ligaya (freedom-to-joy) brand thesis, and the two founders.
