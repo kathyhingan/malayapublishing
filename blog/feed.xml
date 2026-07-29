@@ -6,13 +6,78 @@
     <atom:link href="https://malayapublishing.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Practical, honest guides on local SEO, Google Business Profile, reviews, and AI visibility for Filipino business owners.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 21:56:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 04:43:49 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <image>
       <url>https://malayapublishing.com/assets/hero-family.webp</url>
       <title>Malaya Publishing Blog</title>
       <link>https://malayapublishing.com/blog/</link>
     </image>
+    <item>
+      <title>Getting Your Business Name, Address, and Phone Consistent Across the Web</title>
+      <link>https://malayapublishing.com/blog/nap-consistency-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/nap-consistency-philippines/</guid>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/nap.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/nap.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/nap.svg" />
+      <description>Why NAP consistency matters for local SEO in the Philippines, how to set one master version of your business details, and how to find and fix inconsistent directory listings.</description>
+    </item>
+    <item>
+      <title>How to Show Up When Customers Ask ChatGPT to Recommend a Business Like Yours</title>
+      <link>https://malayapublishing.com/blog/how-to-appear-in-chatgpt-recommendations-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-appear-in-chatgpt-recommendations-philippines/</guid>
+      <pubDate>Tue, 28 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/chatgpt.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/chatgpt.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/chatgpt.svg" />
+      <description>How AI tools like ChatGPT pick local business recommendations, why it overlaps almost entirely with your existing local SEO, and what a Filipino business can realistically do about it.</description>
+    </item>
+    <item>
+      <title>AI Overviews Explained: Will It Take My Google Traffic, and What Should You Actually Do About It</title>
+      <link>https://malayapublishing.com/blog/google-ai-overviews-explained-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/google-ai-overviews-explained-philippines/</guid>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/ai-overviews.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/ai-overviews.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/ai-overviews.svg" />
+      <description>What Google AI Overviews are, whether they reduce website traffic, what actually gets cited, and what Filipino small businesses should (and shouldn&#x27;t) do about AI search visibility.</description>
+    </item>
+    <item>
+      <title>How to Find the Local Keywords People Actually Search for Your Business, for Free</title>
+      <link>https://malayapublishing.com/blog/how-to-find-local-keywords-free-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-find-local-keywords-free-philippines/</guid>
+      <pubDate>Sun, 26 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/keywords.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/keywords.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/keywords.svg" />
+      <description>A free, no-tool method to find the local keywords your Filipino customers actually search: Google autocomplete, People Also Ask, related searches, and your own customer language.</description>
+    </item>
+    <item>
+      <title>Why Your Business Isn&#x27;t Showing Up on Google Maps (and How to Fix It)</title>
+      <link>https://malayapublishing.com/blog/why-business-not-showing-google-maps-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/why-business-not-showing-google-maps-philippines/</guid>
+      <pubDate>Sat, 25 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/maps-visibility.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/maps-visibility.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/maps-visibility.svg" />
+      <description>The five reasons a business doesn&#x27;t appear on Google Maps in the Philippines—no profile, unverified, inactive, suspended, or outranked—and how to diagnose and fix each one.</description>
+    </item>
     <item>
       <title>The One-Weekend Local SEO Checklist for a Philippine Business</title>
       <link>https://malayapublishing.com/blog/local-seo-checklist-philippines/</link>
