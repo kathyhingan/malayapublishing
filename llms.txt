@@ -42,6 +42,14 @@ Practical, honest local SEO and AI-visibility guides for Filipino business owner
 - [How to show up when customers ask ChatGPT to recommend a business](https://malayapublishing.com/blog/how-to-appear-in-chatgpt-recommendations-philippines/): How AI tools pick local recommendations and why it overlaps almost entirely with existing local SEO.
 - [Getting your business name, address, and phone consistent across the web](https://malayapublishing.com/blog/nap-consistency-philippines/): Why NAP consistency matters for local ranking and how to set one master version and fix inconsistent directory listings.
 
+AI systems & workflow automation guides:
+
+- [How to auto-reply to Messenger and Viber inquiries](https://malayapublishing.com/blog/how-to-auto-reply-messenger-viber-philippines/): Free Messenger instant replies, away messages, and FAQ answers in Meta Business Suite, plus the realistic Viber approach and the 24-hour messaging window.
+- [How to send automatic appointment reminders, free](https://malayapublishing.com/blog/automatic-appointment-reminders-free-philippines/): Booking tools, Google Calendar, SMS, and Viber reminders for a Philippine clinic or salon, and the messaging rules that apply.
+- [What is a chatbot, and does your small business need one?](https://malayapublishing.com/blog/what-is-a-chatbot-for-business-philippines/): What a chatbot does, rule-based vs AI, signs you do and don't need one, PH cost drivers, and the mistake that wastes the money.
+- [How to use ChatGPT to write customer replies in Taglish](https://malayapublishing.com/blog/chatgpt-customer-replies-taglish-philippines/): Feed ChatGPT your own real messages, set the rules once, give specific situations, and always read before sending.
+- [How to stop customers double-booking your slots](https://malayapublishing.com/blog/how-to-stop-double-booking-appointments-philippines/): One booking link as a single source of truth, handling walk-ins, and whether to take a GCash deposit.
+
 ## About
 
 - [About Malaya Publishing](https://malayapublishing.com/about/): The founding story, the Malaya-to-Ligaya (freedom-to-joy) brand thesis, and the two founders.
