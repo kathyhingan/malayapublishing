@@ -6,7 +6,7 @@
     <atom:link href="https://malayapublishing.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Practical, honest guides on local SEO, Google Business Profile, reviews, and AI visibility for Filipino business owners.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 04:43:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 00:01:21 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <image>
       <url>https://malayapublishing.com/assets/hero-family.webp</url>
@@ -27,6 +27,19 @@
       <description>Why NAP consistency matters for local SEO in the Philippines, how to set one master version of your business details, and how to find and fix inconsistent directory listings.</description>
     </item>
     <item>
+      <title>How to Auto-Reply to Messenger and Viber Inquiries So You Stop Losing Leads at Night</title>
+      <link>https://malayapublishing.com/blog/how-to-auto-reply-messenger-viber-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-auto-reply-messenger-viber-philippines/</guid>
+      <pubDate>Wed, 29 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>AI Systems &amp; Automation</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/auto-reply.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/auto-reply.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/auto-reply.svg" />
+      <description>Set up free Messenger instant replies, away messages, and FAQ answers in Meta Business Suite, handle Viber realistically, and stop losing leads to overnight silence.</description>
+    </item>
+    <item>
       <title>How to Show Up When Customers Ask ChatGPT to Recommend a Business Like Yours</title>
       <link>https://malayapublishing.com/blog/how-to-appear-in-chatgpt-recommendations-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-appear-in-chatgpt-recommendations-philippines/</guid>
@@ -38,6 +51,19 @@
       <media:content url="https://malayapublishing.com/assets/blog/chatgpt.svg" medium="image" type="image/svg+xml" />
       <media:thumbnail url="https://malayapublishing.com/assets/blog/chatgpt.svg" />
       <description>How AI tools like ChatGPT pick local business recommendations, why it overlaps almost entirely with your existing local SEO, and what a Filipino business can realistically do about it.</description>
+    </item>
+    <item>
+      <title>How to Send Automatic Appointment Reminders for a Clinic or Salon, Free</title>
+      <link>https://malayapublishing.com/blog/automatic-appointment-reminders-free-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/automatic-appointment-reminders-free-philippines/</guid>
+      <pubDate>Tue, 28 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>AI Systems &amp; Automation</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/reminders.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/reminders.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/reminders.svg" />
+      <description>Free and low-cost ways to send appointment reminders for a Philippine clinic or salon—booking tools, Google Calendar, SMS, and Viber—and the messaging rules that actually apply.</description>
     </item>
     <item>
       <title>AI Overviews Explained: Will It Take My Google Traffic, and What Should You Actually Do About It</title>
@@ -53,6 +79,19 @@
       <description>What Google AI Overviews are, whether they reduce website traffic, what actually gets cited, and what Filipino small businesses should (and shouldn&#x27;t) do about AI search visibility.</description>
     </item>
     <item>
+      <title>What Is a Chatbot, and Does Your Small Business Actually Need One?</title>
+      <link>https://malayapublishing.com/blog/what-is-a-chatbot-for-business-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/what-is-a-chatbot-for-business-philippines/</guid>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>AI Systems &amp; Automation</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/chatbot.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/chatbot.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/chatbot.svg" />
+      <description>What a chatbot really does, rule-based vs AI chatbots, five signs you need one and five signs you don&#x27;t, what it costs in the Philippines, and the mistake that wastes the money.</description>
+    </item>
+    <item>
       <title>How to Find the Local Keywords People Actually Search for Your Business, for Free</title>
       <link>https://malayapublishing.com/blog/how-to-find-local-keywords-free-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-find-local-keywords-free-philippines/</guid>
@@ -66,6 +105,19 @@
       <description>A free, no-tool method to find the local keywords your Filipino customers actually search: Google autocomplete, People Also Ask, related searches, and your own customer language.</description>
     </item>
     <item>
+      <title>How to Use ChatGPT to Write Customer Replies in Taglish That Don&#x27;t Sound Robotic</title>
+      <link>https://malayapublishing.com/blog/chatgpt-customer-replies-taglish-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/chatgpt-customer-replies-taglish-philippines/</guid>
+      <pubDate>Sun, 26 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>AI Systems &amp; Automation</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/taglish-replies.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/taglish-replies.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/taglish-replies.svg" />
+      <description>A practical way to get natural Taglish customer replies from ChatGPT: feed it your own real messages, set the rules once, give specific situations, and always read before sending.</description>
+    </item>
+    <item>
       <title>Why Your Business Isn&#x27;t Showing Up on Google Maps (and How to Fix It)</title>
       <link>https://malayapublishing.com/blog/why-business-not-showing-google-maps-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/why-business-not-showing-google-maps-philippines/</guid>
@@ -77,6 +129,19 @@
       <media:content url="https://malayapublishing.com/assets/blog/maps-visibility.svg" medium="image" type="image/svg+xml" />
       <media:thumbnail url="https://malayapublishing.com/assets/blog/maps-visibility.svg" />
       <description>The five reasons a business doesn&#x27;t appear on Google Maps in the Philippines—no profile, unverified, inactive, suspended, or outranked—and how to diagnose and fix each one.</description>
+    </item>
+    <item>
+      <title>How to Stop Customers Double-Booking Your Slots</title>
+      <link>https://malayapublishing.com/blog/how-to-stop-double-booking-appointments-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-stop-double-booking-appointments-philippines/</guid>
+      <pubDate>Sat, 25 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>AI Systems &amp; Automation</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/double-booking.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/double-booking.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/double-booking.svg" />
+      <description>Stop double-bookings by putting every available time behind one booking link so a slot disappears the moment it&#x27;s taken—plus how to handle walk-ins, deposits, and GCash.</description>
     </item>
     <item>
       <title>The One-Weekend Local SEO Checklist for a Philippine Business</title>
