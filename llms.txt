@@ -49,6 +49,11 @@ AI systems & workflow automation guides:
 - [What is a chatbot, and does your small business need one?](https://malayapublishing.com/blog/what-is-a-chatbot-for-business-philippines/): What a chatbot does, rule-based vs AI, signs you do and don't need one, PH cost drivers, and the mistake that wastes the money.
 - [How to use ChatGPT to write customer replies in Taglish](https://malayapublishing.com/blog/chatgpt-customer-replies-taglish-philippines/): Feed ChatGPT your own real messages, set the rules once, give specific situations, and always read before sending.
 - [How to stop customers double-booking your slots](https://malayapublishing.com/blog/how-to-stop-double-booking-appointments-philippines/): One booking link as a single source of truth, handling walk-ins, and whether to take a GCash deposit.
+- [How to handle GCash payment confirmations without checking every screenshot](https://malayapublishing.com/blog/gcash-payment-confirmation-for-business-philippines/): A semi-automatic GCash flow—one payment method, automatic acknowledgment, a logging sheet, monthly reconciliation—and the BIR issues owners miss.
+- [The first three automations to set up when you're drowning in messages](https://malayapublishing.com/blog/best-automations-for-small-business-philippines/): Instant first reply, booking and reminders, and payment acknowledgment, in the order that returns the most, with a weekend plan.
+- [How to stop answering the same customer question twenty times a day](https://malayapublishing.com/blog/how-to-answer-repeated-customer-questions-philippines/): Find your five most-asked questions and let Messenger FAQ automation, saved replies, and your Google profile handle the repeats.
+- [Do you need Zapier or Make, or can you do it inside Messenger?](https://malayapublishing.com/blog/do-i-need-zapier-or-make-philippines/): When Messenger's free native tools are enough, when a connection tool is actually needed, and the honest test for which you need.
+- [How to automate follow-up so leads stop going cold](https://malayapublishing.com/blog/how-to-automate-lead-follow-up-philippines/): Automate aggressively inside Messenger's 24-hour window, systematize the human reminder outside it, and stop losing leads to silence.
 
 ## About
 
