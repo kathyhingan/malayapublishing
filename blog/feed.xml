@@ -6,7 +6,7 @@
     <atom:link href="https://malayapublishing.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Practical, honest guides on local SEO, Google Business Profile, reviews, and AI visibility for Filipino business owners.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2026 04:24:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 11:04:50 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <image>
       <url>https://malayapublishing.com/assets/hero-family.webp</url>
@@ -235,6 +235,19 @@
       <description>Why Messenger&#x27;s 24-hour window changes follow-up entirely: automate aggressively inside the window, systematize the human reminder outside it, and stop leads going cold.</description>
     </item>
     <item>
+      <title>How to Write an SOP Your Staff Will Actually Follow, Not Another Ignored Google Doc</title>
+      <link>https://malayapublishing.com/blog/how-to-write-an-sop-small-business-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-write-an-sop-small-business-philippines/</guid>
+      <pubDate>Sun, 19 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>Systems &amp; Process Build</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/write-sop.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/write-sop.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/write-sop.svg" />
+      <description>Why most SOPs get ignored and how to write one your team actually uses: short, in the real order of work, kept where the work happens, and built with the person who does the job.</description>
+    </item>
+    <item>
       <title>How to Rank in the Google Local Pack for a Calamba or Laguna Business</title>
       <link>https://malayapublishing.com/blog/how-to-rank-google-local-pack-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-rank-google-local-pack-philippines/</guid>
@@ -248,6 +261,32 @@
       <description>Understand the three local pack ranking factors—relevance, distance, and prominence—and the practical steps a Calamba or Laguna business can take to rank higher on Google Maps.</description>
     </item>
     <item>
+      <title>How to Document Your Business So It Survives a Staff Resignation</title>
+      <link>https://malayapublishing.com/blog/how-to-document-your-business-processes-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-document-your-business-processes-philippines/</guid>
+      <pubDate>Sat, 18 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>Systems &amp; Process Build</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/document-business.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/document-business.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/document-business.svg" />
+      <description>Capture what only one person knows—access, relationships, exceptions, and judgment calls—before they resign. Why the 30-day notice period isn&#x27;t enough, and what to prioritize when it is.</description>
+    </item>
+    <item>
+      <title>The First Process to Systematize When You&#x27;re the Bottleneck</title>
+      <link>https://malayapublishing.com/blog/how-to-stop-being-the-bottleneck-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-stop-being-the-bottleneck-philippines/</guid>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>Systems &amp; Process Build</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/stop-bottleneck.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/stop-bottleneck.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/stop-bottleneck.svg" />
+      <description>Find the one process that stops when you&#x27;re unavailable—usually the approval step—and fix it first. A one-week interruption log, the four common bottlenecks, and how to hand over authority.</description>
+    </item>
+    <item>
       <title>How to Get More Google Reviews From Filipino Customers Using Viber, Messenger, and GCash Receipts</title>
       <link>https://malayapublishing.com/blog/how-to-get-more-google-reviews-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-get-more-google-reviews-philippines/</guid>
@@ -259,6 +298,32 @@
       <media:content url="https://malayapublishing.com/assets/blog/reviews.svg" medium="image" type="image/svg+xml" />
       <media:thumbnail url="https://malayapublishing.com/assets/blog/reviews.svg" />
       <description>A repeatable system for getting more Google reviews from Filipino customers using a direct review link, QR codes, and well-timed asks through Viber, Messenger, and GCash receipts.</description>
+    </item>
+    <item>
+      <title>How to Train New Staff Fast When People Keep Leaving for BPOs or Abroad</title>
+      <link>https://malayapublishing.com/blog/how-to-train-new-staff-quickly-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-train-new-staff-quickly-philippines/</guid>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>Systems &amp; Process Build</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/train-staff.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/train-staff.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/train-staff.svg" />
+      <description>Build a business that absorbs turnover instead of fighting it: pre-built training, a written first week, a day-one win, one named owner per hire, and deliberate cross-training.</description>
+    </item>
+    <item>
+      <title>How to Delegate Customer Inquiries Without Losing the Customer</title>
+      <link>https://malayapublishing.com/blog/how-to-delegate-customer-service-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-delegate-customer-service-philippines/</guid>
+      <pubDate>Wed, 15 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>Systems &amp; Process Build</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/delegate-inquiries.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/delegate-inquiries.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/delegate-inquiries.svg" />
+      <description>Delegate inquiries safely by handing over the answers, the authority, and the boundaries together—not just the task. How to sort inquiries, back your staff&#x27;s decisions, and protect key relationships.</description>
     </item>
     <item>
       <title>How to Set Up Your Google Business Profile in the Philippines, Step by Step</title>
