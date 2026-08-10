@@ -6,7 +6,7 @@
     <atom:link href="https://malayapublishing.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Practical, honest guides on local SEO, Google Business Profile, reviews, and AI visibility for Filipino business owners.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 11:04:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 00:24:49 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <image>
       <url>https://malayapublishing.com/assets/hero-family.webp</url>
@@ -337,6 +337,71 @@
       <media:content url="https://malayapublishing.com/assets/blog/gbp-setup.svg" medium="image" type="image/svg+xml" />
       <media:thumbnail url="https://malayapublishing.com/assets/blog/gbp-setup.svg" />
       <description>A step-by-step guide to creating, verifying (including GBP video verification), and completing your Google Business Profile in the Philippines so nearby customers can find you on Google.</description>
+    </item>
+    <item>
+      <title>Turning &quot;Everything Is in My Head&quot; Into a System Your Team Can Run</title>
+      <link>https://malayapublishing.com/blog/everything-in-my-head-business-system-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/everything-in-my-head-business-system-philippines/</guid>
+      <pubDate>Tue, 14 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>Systems &amp; Process Build</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/in-my-head.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/in-my-head.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/in-my-head.svg" />
+      <description>Get your business out of your head by capturing it in the order it interrupts you: a two-week interruption log, then sort facts, rules, processes, and judgment—each with a different fix.</description>
+    </item>
+    <item>
+      <title>A Simple Weekly Cadence to Run Your Business Without Micromanaging</title>
+      <link>https://malayapublishing.com/blog/weekly-meeting-cadence-small-business-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/weekly-meeting-cadence-small-business-philippines/</guid>
+      <pubDate>Mon, 13 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>Systems &amp; Process Build</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/weekly-cadence.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/weekly-cadence.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/weekly-cadence.svg" />
+      <description>A workable operating rhythm: a short Monday team start, a solo Friday review, one number checked weekly, and clear ownership in between—so you stop asking &#x27;how&#x27;s it going?&#x27; all day.</description>
+    </item>
+    <item>
+      <title>How to Build a Customer Follow-Up System With No CRM Budget</title>
+      <link>https://malayapublishing.com/blog/customer-follow-up-system-without-crm-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/customer-follow-up-system-without-crm-philippines/</guid>
+      <pubDate>Sun, 12 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>Systems &amp; Process Build</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/follow-up-sheet.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/follow-up-sheet.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/follow-up-sheet.svg" />
+      <description>A six-column spreadsheet and a fifteen-minute daily habit outperform most unused CRM software. The one column that is the whole system, how to capture leads reliably, and when you actually need real software.</description>
+    </item>
+    <item>
+      <title>Checklist: Is Your Business Ready to Run Without You for a Week?</title>
+      <link>https://malayapublishing.com/blog/can-my-business-run-without-me-checklist-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/can-my-business-run-without-me-checklist-philippines/</guid>
+      <pubDate>Sat, 11 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>Systems &amp; Process Build</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/run-without-you.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/run-without-you.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/run-without-you.svg" />
+      <description>A five-section readiness checklist—decisions, knowledge, money, access, and the human part—to honestly score whether your business could run for a week without you, and the order to fix the gaps.</description>
+    </item>
+    <item>
+      <title>How to Hand Over a Task So It Comes Back Done Right the First Time</title>
+      <link>https://malayapublishing.com/blog/how-to-delegate-tasks-effectively-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-delegate-tasks-effectively-philippines/</guid>
+      <pubDate>Fri, 10 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>Systems &amp; Process Build</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/handover-task.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/handover-task.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/handover-task.svg" />
+      <description>Work comes back right when the handover includes four things: what done looks like, when it&#x27;s due, what the person can decide alone, and where to get unstuck. The two-minute handover that saves the redo.</description>
     </item>
   </channel>
 </rss>
