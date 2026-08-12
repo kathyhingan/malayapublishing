@@ -79,6 +79,15 @@ See `LAUNCH_READINESS.md` (kept outside the repo) for the full punch-list.
 
 ---
 
+## Analytics & Search Console tracking
+
+- **GA4:** Every page carries the Google Analytics gtag.js snippet (measurement ID `G-N19Q4DQ28B`) immediately after its `<head>` tag.
+- **Automatic for new pages:** You don't have to remember to paste it. The GitHub Actions workflow `.github/workflows/ga4-tracking.yml` runs on every push to `main`, injects the snippet into any HTML page that's missing it (via `scripts/inject-ga4.py`), and commits the fix back. Add a new page, push, and it gets tracking on its own.
+- **Do it locally / preview:** `python3 scripts/inject-ga4.py` injects where missing; `python3 scripts/inject-ga4.py --check` reports missing pages without changing anything (exits non-zero if any are found).
+- **Google Search Console:** verified via the root file `googlee2629a8b1072c6d1.html`. Leave that file untouched — the injector deliberately skips Google verification files.
+
+---
+
 ## Editing tips
 
 - **Change a color, font, or button style:** edit `malaya.css` once — every page updates.

@@ -1,0 +1,43 @@
+name: Ensure GA4 tracking
+
+# Keeps the GA4 gtag.js snippet present on every HTML page. On each push to
+# main it injects the snippet into any new or edited page that is missing it,
+# then commits the fix back so future pages are tracked automatically.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.html"
+      - "scripts/inject-ga4.py"
+      - ".github/workflows/ga4-tracking.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ga4-tracking-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  inject:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Inject GA4 snippet where missing
+        run: python3 scripts/inject-ga4.py
+
+      - name: Commit any changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Auto-add GA4 tracking snippet to pages missing it"
+            git push
+          else
+            echo "All pages already have the GA4 snippet; nothing to commit."
+          fi
