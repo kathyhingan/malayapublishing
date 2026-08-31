@@ -6,13 +6,78 @@
     <atom:link href="https://malayapublishing.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Practical, honest guides on local SEO, Google Business Profile, reviews, and AI visibility for Filipino business owners.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 04:36:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 11:16:51 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <image>
       <url>https://malayapublishing.com/assets/hero-family.webp</url>
       <title>Malaya Publishing Blog</title>
       <link>https://malayapublishing.com/blog/</link>
     </image>
+    <item>
+      <title>A One-Week Marketing Plan for a Business With No Marketing Team</title>
+      <link>https://malayapublishing.com/blog/one-week-marketing-plan-no-marketing-team-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/one-week-marketing-plan-no-marketing-team-philippines/</guid>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Daryl Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Daryl Urbanski)</author>
+      <category>Digital Marketing</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/marketing-plan.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/marketing-plan.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/marketing-plan.svg" />
+      <description>A day-by-day week to put the marketing fundamentals in place: know your customer, fix your page, build a capture habit, run one real ad test, and install the follow-up habit that makes it compound.</description>
+    </item>
+    <item>
+      <title>How to Build a Customer List You Actually Own, Off Social Media</title>
+      <link>https://malayapublishing.com/blog/how-to-build-a-customer-list-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-build-a-customer-list-philippines/</guid>
+      <pubDate>Sun, 09 Aug 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Daryl Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Daryl Urbanski)</author>
+      <category>Digital Marketing</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/own-list.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/own-list.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/own-list.svg" />
+      <description>Every platform is a landlord, not a home. How to capture contact details at every touchpoint, give people a reason to join, keep it in one place, and turn a single transaction into a relationship you control.</description>
+    </item>
+    <item>
+      <title>Selling on Shopee and Lazada vs Your Own Page: Where to Put Your Effort</title>
+      <link>https://malayapublishing.com/blog/shopee-lazada-vs-own-page-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/shopee-lazada-vs-own-page-philippines/</guid>
+      <pubDate>Sat, 08 Aug 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Daryl Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Daryl Urbanski)</author>
+      <category>Digital Marketing</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/marketplace.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/marketplace.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/marketplace.svg" />
+      <description>Use marketplaces for discovery and your own page for relationship and repeat business. The honest fee math, what you never get from a marketplace, and when to lean each direction.</description>
+    </item>
+    <item>
+      <title>How to Get Repeat Customers Without Spending on Ads</title>
+      <link>https://malayapublishing.com/blog/how-to-get-repeat-customers-without-ads-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-get-repeat-customers-without-ads-philippines/</guid>
+      <pubDate>Fri, 07 Aug 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Daryl Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Daryl Urbanski)</author>
+      <category>Digital Marketing</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/repeat-customers.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/repeat-customers.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/repeat-customers.svg" />
+      <description>Retention is the least explored, highest-return channel most small businesses have. Time outreach to when customers naturally need you again, make coming back effortless, and reward the second purchase.</description>
+    </item>
+    <item>
+      <title>How to Write Product Captions That Actually Sell</title>
+      <link>https://malayapublishing.com/blog/how-to-write-product-captions-that-sell-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-write-product-captions-that-sell-philippines/</guid>
+      <pubDate>Thu, 06 Aug 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Daryl Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Daryl Urbanski)</author>
+      <category>Digital Marketing</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/captions.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/captions.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/captions.svg" />
+      <description>A caption that sells names the result, removes one hesitation, and ends with one clear next step. The three-part structure, a worked example, and how to write for how Filipino customers actually decide.</description>
+    </item>
     <item>
       <title>How to Run Your First Facebook Ad in the Philippines Without Wasting the Budget</title>
       <link>https://malayapublishing.com/blog/how-to-run-facebook-ads-philippines-small-business/</link>
@@ -131,19 +196,6 @@
       <description>Free and low-cost ways to send appointment reminders for a Philippine clinic or salon—booking tools, Google Calendar, SMS, and Viber—and the messaging rules that actually apply.</description>
     </item>
     <item>
-      <title>AI Overviews Explained: Will It Take My Google Traffic, and What Should You Actually Do About It</title>
-      <link>https://malayapublishing.com/blog/google-ai-overviews-explained-philippines/</link>
-      <guid isPermaLink="true">https://malayapublishing.com/blog/google-ai-overviews-explained-philippines/</guid>
-      <pubDate>Mon, 27 Jul 2026 09:00:00 +0000</pubDate>
-      <dc:creator>Kathy Urbanski</dc:creator>
-      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
-      <category>SEO &amp; AI Visibility</category>
-      <enclosure url="https://malayapublishing.com/assets/blog/ai-overviews.svg" type="image/svg+xml" length="0" />
-      <media:content url="https://malayapublishing.com/assets/blog/ai-overviews.svg" medium="image" type="image/svg+xml" />
-      <media:thumbnail url="https://malayapublishing.com/assets/blog/ai-overviews.svg" />
-      <description>What Google AI Overviews are, whether they reduce website traffic, what actually gets cited, and what Filipino small businesses should (and shouldn&#x27;t) do about AI search visibility.</description>
-    </item>
-    <item>
       <title>What Is a Chatbot, and Does Your Small Business Actually Need One?</title>
       <link>https://malayapublishing.com/blog/what-is-a-chatbot-for-business-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/what-is-a-chatbot-for-business-philippines/</guid>
@@ -155,6 +207,19 @@
       <media:content url="https://malayapublishing.com/assets/blog/chatbot.svg" medium="image" type="image/svg+xml" />
       <media:thumbnail url="https://malayapublishing.com/assets/blog/chatbot.svg" />
       <description>What a chatbot really does, rule-based vs AI chatbots, five signs you need one and five signs you don&#x27;t, what it costs in the Philippines, and the mistake that wastes the money.</description>
+    </item>
+    <item>
+      <title>AI Overviews Explained: Will It Take My Google Traffic, and What Should You Actually Do About It</title>
+      <link>https://malayapublishing.com/blog/google-ai-overviews-explained-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/google-ai-overviews-explained-philippines/</guid>
+      <pubDate>Mon, 27 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/ai-overviews.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/ai-overviews.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/ai-overviews.svg" />
+      <description>What Google AI Overviews are, whether they reduce website traffic, what actually gets cited, and what Filipino small businesses should (and shouldn&#x27;t) do about AI search visibility.</description>
     </item>
     <item>
       <title>How to Find the Local Keywords People Actually Search for Your Business, for Free</title>
@@ -352,19 +417,6 @@
       <description>Find the one process that stops when you&#x27;re unavailable—usually the approval step—and fix it first. A one-week interruption log, the four common bottlenecks, and how to hand over authority.</description>
     </item>
     <item>
-      <title>How to Get More Google Reviews From Filipino Customers Using Viber, Messenger, and GCash Receipts</title>
-      <link>https://malayapublishing.com/blog/how-to-get-more-google-reviews-philippines/</link>
-      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-get-more-google-reviews-philippines/</guid>
-      <pubDate>Thu, 16 Jul 2026 09:00:00 +0000</pubDate>
-      <dc:creator>Kathy Urbanski</dc:creator>
-      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
-      <category>SEO &amp; AI Visibility</category>
-      <enclosure url="https://malayapublishing.com/assets/blog/reviews.svg" type="image/svg+xml" length="0" />
-      <media:content url="https://malayapublishing.com/assets/blog/reviews.svg" medium="image" type="image/svg+xml" />
-      <media:thumbnail url="https://malayapublishing.com/assets/blog/reviews.svg" />
-      <description>A repeatable system for getting more Google reviews from Filipino customers using a direct review link, QR codes, and well-timed asks through Viber, Messenger, and GCash receipts.</description>
-    </item>
-    <item>
       <title>How to Train New Staff Fast When People Keep Leaving for BPOs or Abroad</title>
       <link>https://malayapublishing.com/blog/how-to-train-new-staff-quickly-philippines/</link>
       <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-train-new-staff-quickly-philippines/</guid>
@@ -376,6 +428,19 @@
       <media:content url="https://malayapublishing.com/assets/blog/train-staff.svg" medium="image" type="image/svg+xml" />
       <media:thumbnail url="https://malayapublishing.com/assets/blog/train-staff.svg" />
       <description>Build a business that absorbs turnover instead of fighting it: pre-built training, a written first week, a day-one win, one named owner per hire, and deliberate cross-training.</description>
+    </item>
+    <item>
+      <title>How to Get More Google Reviews From Filipino Customers Using Viber, Messenger, and GCash Receipts</title>
+      <link>https://malayapublishing.com/blog/how-to-get-more-google-reviews-philippines/</link>
+      <guid isPermaLink="true">https://malayapublishing.com/blog/how-to-get-more-google-reviews-philippines/</guid>
+      <pubDate>Thu, 16 Jul 2026 09:00:00 +0000</pubDate>
+      <dc:creator>Kathy Urbanski</dc:creator>
+      <author>hello@malayapublishing.com (Kathy Urbanski)</author>
+      <category>SEO &amp; AI Visibility</category>
+      <enclosure url="https://malayapublishing.com/assets/blog/reviews.svg" type="image/svg+xml" length="0" />
+      <media:content url="https://malayapublishing.com/assets/blog/reviews.svg" medium="image" type="image/svg+xml" />
+      <media:thumbnail url="https://malayapublishing.com/assets/blog/reviews.svg" />
+      <description>A repeatable system for getting more Google reviews from Filipino customers using a direct review link, QR codes, and well-timed asks through Viber, Messenger, and GCash receipts.</description>
     </item>
     <item>
       <title>How to Delegate Customer Inquiries Without Losing the Customer</title>
