@@ -326,6 +326,14 @@
 .article-shell{max-width:var(--maxw);margin:0 auto;padding:40px 20px 10px;display:grid;gap:32px;grid-template-columns:1fr}
 
 /* Table of contents (col 1) */
+
+/* comparison tables added Nov 2026 (declining-content refresh) */
+.tablewrap{overflow-x:auto;margin:0 0 20px}
+.article-body table{border-collapse:collapse;width:100%;font-size:.95rem;line-height:1.45}
+.article-body th{background:var(--green-deep);color:#fff;text-align:left;padding:10px 12px;font-size:.85rem;font-family:'Plus Jakarta Sans',system-ui,sans-serif}
+.article-body td{border-bottom:1px solid rgba(26,107,60,.15);padding:10px 12px;vertical-align:top;color:var(--ink)}
+.article-body tr:nth-child(even) td{background:rgba(26,107,60,.035)}
+
 .toc-col{order:2}
 .toc{background:var(--white);border:1px solid rgba(26,107,60,.1);border-radius:var(--radius);padding:20px 22px;box-shadow:var(--shadow)}
 .toc h2{font-family:'Plus Jakarta Sans',system-ui,sans-serif;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--green);margin:0 0 14px}
