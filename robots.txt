@@ -1,4 +1,4 @@
-# robots.txt — Malaya Publishing
+# robots.txt, Malaya Publishing
 # Allow all reputable crawlers, including AI/answer engines (AEO strategy).
 
 User-agent: *

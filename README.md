@@ -1,4 +1,4 @@
-# Malaya Publishing — Website
+# Malaya Publishing, Website
 
 Static marketing site for Malaya Publishing. 16 HTML pages + one shared stylesheet. No build step, no framework. Deploys as-is to GitHub Pages, Cloudflare Pages, or Netlify.
 
@@ -37,7 +37,7 @@ Every page links to `malaya.css` and to other pages by plain filename (`href="ab
 2. Connect the repo to **Cloudflare Pages** or **Netlify** (both free, one-click from GitHub). Framework preset: **None / static HTML**. Build command: none. Output dir: `/` (root).
 3. You get a test URL. Check pages load, popups open, links work.
 4. **Keep the old WordPress site running.** Only point `malayapublishing.com` at the new host after testing.
-5. No redirect map needed — the old site has no SEO equity; content starts fresh here.
+5. No redirect map needed, the old site has no SEO equity; content starts fresh here.
 
 ---
 
@@ -47,7 +47,7 @@ All buttons and links are already wired. The three lead-capture forms are CRM em
 
 | What | Where to paste | Which file |
 |---|---|---|
-| **Audit form** (from "Start My Free Growth Audit" popup) | `<div id="malaya-audit-slot">` | in every page (shared modal) — edit once per page or via find/replace |
+| **Audit form** (from "Start My Free Growth Audit" popup) | `<div id="malaya-audit-slot">` | in every page (shared modal), edit once per page or via find/replace |
 | **Waitlist form** (from course "Join the Waitlist" popup) | `<div id="malaya-waitlist-slot">` | in every page (shared modal) |
 | **Contact form** (inline on the contact page) | `<div id="contact-form-slot">` | `contact.html` only |
 
@@ -70,8 +70,8 @@ Until the embeds are pasted, those three forms show a "form loads here" placehol
 - Real logo (replaces the CSS placeholder mark in header/footer)
 - Real photos (About page has 3 photo slots; segment/service pages can take photos)
 - Trust-strip logos + permission to name Gerber, NeuroGym, Eram, Axis, Sugar Gliders, Luxury Tours
-- Contact details on `contact.html` (Messenger, Viber, email, phone, address — marked placeholders)
-- Results / case-study hub (deliberately deferred — building each study properly)
+- Contact details on `contact.html` (Messenger, Viber, email, phone, address, marked placeholders)
+- Results / case-study hub (deliberately deferred, building each study properly)
 - Native quiz (replace the interim BBC link)
 - Favicon, Open Graph tags, sitemap.xml, robots.txt, schema markup (SEO/AEO)
 
@@ -84,12 +84,12 @@ See `LAUNCH_READINESS.md` (kept outside the repo) for the full punch-list.
 - **GA4:** Every page carries the Google Analytics gtag.js snippet (measurement ID `G-N19Q4DQ28B`) immediately after its `<head>` tag.
 - **Automatic for new pages:** You don't have to remember to paste it. The GitHub Actions workflow `.github/workflows/ga4-tracking.yml` runs on every push to `main`, injects the snippet into any HTML page that's missing it (via `scripts/inject-ga4.py`), and commits the fix back. Add a new page, push, and it gets tracking on its own.
 - **Do it locally / preview:** `python3 scripts/inject-ga4.py` injects where missing; `python3 scripts/inject-ga4.py --check` reports missing pages without changing anything (exits non-zero if any are found).
-- **Google Search Console:** verified via the root file `googlee2629a8b1072c6d1.html`. Leave that file untouched — the injector deliberately skips Google verification files.
+- **Google Search Console:** verified via the root file `googlee2629a8b1072c6d1.html`. Leave that file untouched, the injector deliberately skips Google verification files.
 
 ---
 
 ## Editing tips
 
-- **Change a color, font, or button style:** edit `malaya.css` once — every page updates.
+- **Change a color, font, or button style:** edit `malaya.css` once, every page updates.
 - **Change the popup headline/subtext:** it's in the `<script>` block near the bottom of each page (the `COPY` object).
 - **Palette:** green `#0F8A4D` (freedom + money), deep green `#14532D`, sand `#F7F3E8`, gold `#F5A623` (CTAs), teal `#0EA5A5`, ink `#2B2118`.
